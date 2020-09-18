@@ -5,6 +5,9 @@ list-style-type: square;
 
 }
 
+
+
+
 h3{
  font: size 50px;
  font-style: italic;
@@ -19,18 +22,26 @@ h3{
     border-radius:10px ;
     padding:5px;
     width: 50%,
-    
-    
+        
  }
 
   .bordered{
-   
-      border-style: solid;
-      border-width: 0px 3px 0px 0px;
+         border-style: solid;
+      border-width: 0px 6px 0px 0px;
       border-color: #000000;
   }
 
 .alignr{
    text-align: right;
 }
- 
+
+.progress {
+   background: orangered;
+   position: fixed;
+   top: 0;
+   bottom: auto;
+   left: 0;
+   width: 0%;
+   height: 5px;
+   z-index: 1000;
+}
