@@ -36,7 +36,7 @@ h3{
 }
 
 .progress {
-   background: orangered;
+   background: rgb(21, 173, 54);
    position: fixed;
    top: 0;
    bottom: auto;
@@ -44,4 +44,10 @@ h3{
    width: 0%;
    height: 5px;
    z-index: 1000;
+}
+
+button{
+border-style: groove;
+border-radius: 2px;
+ background-color:rgb(21, 173, 54);
 }

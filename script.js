@@ -7,7 +7,7 @@ let height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, h
 
 const setProgress = () => {
     let scrollFromTop = (document.documentElement.scrollTop || body.scrollTop) + html.clientHeight;
-    let width = scrollFromTop / height * 100 + '%';
+    let width = (scrollFromTop / height) * 100 + '%';
 
     console.log('scroll', html.clientHeight, body.scrollTop);
 
@@ -17,3 +17,12 @@ const setProgress = () => {
 window.addEventListener('scroll', setProgress);
 
 setProgress();
+
+
+
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
