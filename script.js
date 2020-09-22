@@ -19,12 +19,18 @@ window.addEventListener('scroll', setProgress);
 setProgress();
 
 
-
-
-
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+// Practice your JS here
+let a = "jack";
+console.log(a.length);
+
+let testFun = () => ("hahaha");
+
+console.log(testFun);
+
 
 
