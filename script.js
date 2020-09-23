@@ -33,4 +33,13 @@ let testFun = () => ("hahaha");
 console.log(testFun);
 
 
+const x = 1;
+const y = 2;
+
+console.log(`my number is ${x}`)
+
+let now = new Date();
+
+console.log(now.getMinutes());
+console.log(typeof x);
 
