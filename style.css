@@ -5,6 +5,8 @@ list-style-type: square;
 
 }
 
+ 
+
 
 p{
    margin: 0;
@@ -61,4 +63,12 @@ border-radius: 2px;
    color: rgb(65, 81, 173);
 font-weight: bold;
 padding: 15px;
+}
+
+
+
+.navigation{
+text-align: center;
+ 
+margin-top: 10px;
 }
