@@ -6,6 +6,15 @@ list-style-type: square;
 }
  
 
+.forest {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   display: flex;
+ 
+   background-image: url("https://www.w3schools.com/w3images/forestbridge.jpg");
+   background-size: cover;
+ }
 
 p{
    margin: 0;
