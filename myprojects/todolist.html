@@ -1,19 +1,41 @@
+<!DOCTYPE html>
+<html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/d89e1c939b.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Faraz Hafeez</title>
 </head>
 
 <body>
 
-    <div class="container" style="margin-left: 100px;margin-top: 200px;">
+    <div class="container">
+
+        <p id="demo"> </p>
 
 
+        <script>
+
+
+            var person = { name: "faraz", age: 35, job: "developer" };
+            var myArray = Object.values(person);
+            var txt = "";
+
+
+
+            for (let i = 0; i < myArray.length; i++) {
+                txt += myArray[i] + "<br>";
+            }
+            document.getElementById("demo").innerHTML = txt;
+
+        </script>
 
 
     </div>
 
 </body>
+
+</html>
