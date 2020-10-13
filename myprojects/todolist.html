@@ -21,13 +21,13 @@
 
 
             var person = { name: "faraz", age: 35, job: "developer" };
-            var myArray = Object.values(person);
+            var myArray = Object.keys(person);
             var txt = "";
 
 
 
             for (let i = 0; i < myArray.length; i++) {
-                txt += myArray[i] + "<br>";
+                txt += myArray[i];
             }
             document.getElementById("demo").innerHTML = txt;
 
