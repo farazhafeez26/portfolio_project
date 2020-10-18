@@ -7,19 +7,26 @@ list-style-type: square;
  
 
 .forest {
-   position: absolute;
+ position: relative;
    height: 100%;
    width: 100%;
    display: flex;
- 
    background-image: url("https://www.w3schools.com/w3images/forestbridge.jpg");
-   background-size: cover;
+   background-size: auto;
+    
+    
  }
 
 p{
    margin: 0;
     
 }
+
+a{
+   text-decoration: none;
+}
+
+
 
 h3{
  font: size 50px;
