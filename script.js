@@ -52,3 +52,21 @@ for (i = 0; i < 5; i++) {
   console.log(i);
   i = i + 1;
 }
+
+//function getFullName(firstName, LastName) {
+//(alert(`Hi There ${firstName}`));
+//}
+
+//console.log(getFullName("faraz"));
+
+function checkName() {
+  const askName = prompt("what is your name", "");
+
+  if (askName === "faraz") {
+    alert("hey there");
+  } else {
+    return confirm("Are you sure?");
+  }
+}
+
+checkName();
