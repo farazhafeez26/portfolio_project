@@ -65,7 +65,15 @@ function checkName() {
   if (askName === "faraz") {
     alert("hey there");
   } else {
-    return confirm("Are you sure?");
+    const userIsSure = confirm("Are you sure?");
+    if (userIsSure) {
+      alert("sorry wrong one");
+    } else {
+      const tryAgain = confirm("want to try again?");
+      if (tryAgain) {
+        alert("You failed again?");
+      } else alert("ok give up now");
+    }
   }
 }
 
