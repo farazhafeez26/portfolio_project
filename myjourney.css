@@ -1,27 +1,19 @@
- .maincontent {
-     text-align: center;
-     color: burlywood;
-     top: 100px;
-     position: relative;
-     font-size: 25px;
- }
- 
- h1,
- p {
-     padding: 20px;
- }
- 
- img {
-     opacity: 0.4;
- }
- 
- container {
-     position: relative;
- }
- 
- body {
-     background-image: url("forestbridge.jpg");
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
- }
+h1,
+p {
+  padding: 20px;
+}
+
+img {
+  opacity: 0.4;
+}
+
+container {
+  position: relative;
+}
+
+body {
+  background-image: url("forestbridge.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
